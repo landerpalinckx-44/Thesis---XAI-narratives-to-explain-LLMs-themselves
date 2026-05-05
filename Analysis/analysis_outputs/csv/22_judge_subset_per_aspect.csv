@@ -1,0 +1,16 @@
+subset,aspect,n,spearman_rho,p_value,mean_abs_diff,p_holm,sig_holm
+gpt-5.4 + claude-sonnet-4.6 + grok-4.20,faithfulness,20,0.651,0.0019,0.717,0.0209,True
+gpt-5.4 + claude-sonnet-4.6 + grok-4.20,helpfulness,20,0.602,0.005,0.867,0.03,True
+gpt-5.4 + claude-sonnet-4.6 + grok-4.20,plausibility,20,0.695,0.0007,0.65,0.0098,True
+gpt-5.4 + gemini-3.1-pro + claude-sonnet-4.6 + grok-4.20,faithfulness,20,0.592,0.006,0.65,0.03,True
+gpt-5.4 + gemini-3.1-pro + claude-sonnet-4.6 + grok-4.20,helpfulness,20,0.675,0.0011,0.6,0.0143,True
+gpt-5.4 + gemini-3.1-pro + claude-sonnet-4.6 + grok-4.20,plausibility,20,0.635,0.0026,0.675,0.026,True
+gemini-3.1-pro + claude-sonnet-4.6 + grok-4.20,faithfulness,20,0.599,0.0052,0.683,0.03,True
+gemini-3.1-pro + claude-sonnet-4.6 + grok-4.20,helpfulness,20,0.618,0.0037,0.75,0.0261,True
+gemini-3.1-pro + claude-sonnet-4.6 + grok-4.20,plausibility,20,0.567,0.0092,0.683,0.03,True
+gpt-5.4 + gemini-3.1-pro + claude-sonnet-4.6,faithfulness,20,0.579,0.0075,0.733,0.03,True
+gpt-5.4 + gemini-3.1-pro + claude-sonnet-4.6,helpfulness,20,0.63,0.0029,0.883,0.0261,True
+gpt-5.4 + gemini-3.1-pro + claude-sonnet-4.6,plausibility,20,0.735,0.0002,0.55,0.003,True
+claude-sonnet-4.6 + grok-4.20,faithfulness,20,0.536,0.0148,1.0,0.03,True
+claude-sonnet-4.6 + grok-4.20,helpfulness,20,0.664,0.0014,0.675,0.0168,True
+claude-sonnet-4.6 + grok-4.20,plausibility,20,0.631,0.0029,0.75,0.0261,True

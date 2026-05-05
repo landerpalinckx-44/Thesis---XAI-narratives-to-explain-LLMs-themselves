@@ -1,0 +1,7 @@
+use_case,aspect,n_pairs,n_unmatched_mexgen,mean_tokenshap,mean_mexgen,mean_diff,wilcoxon_stat,p_value,rank_biserial_r,p_holm,sig_holm
+German Credit,faithfulness,10,0,4.233,3.408,0.825,0.0,0.002,1.0,0.012,True
+German Credit,helpfulness,10,0,4.517,3.167,1.35,2.0,0.0117,0.911,0.0468,True
+German Credit,plausibility,10,0,4.2,2.967,1.233,1.5,0.0059,0.945,0.0295,True
+Stroke,faithfulness,10,0,4.075,3.502,0.573,21.0,0.5566,0.236,0.5566,False
+Stroke,helpfulness,10,0,4.47,3.82,0.65,6.5,0.0293,0.764,0.0586,False
+Stroke,plausibility,10,0,4.31,3.31,1.0,2.0,0.0117,0.911,0.0468,True

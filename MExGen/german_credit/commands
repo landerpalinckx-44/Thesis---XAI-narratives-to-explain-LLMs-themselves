@@ -1,0 +1,48 @@
+python run_analysis.py                          # runs mexgen for all 10 instances
+
+python run_analysis.py --instance 0 --force
+python run_analysis.py --instance 1 --force
+python run_analysis.py --instance 4 --force
+python run_analysis.py --instance 9 --force
+python run_analysis.py --instance 17 --force
+python run_analysis.py --instance 29 --force
+python run_analysis.py --instance 55 --force
+python run_analysis.py --instance 95 --force
+python run_analysis.py --instance 107 --force
+python run_analysis.py --instance 134 --force
+
+python run_analysis.py --sampling-ratio 0.5     # can also change sampling ratio
+
+####################################################################################################################
+
+python run_narrative.py                         # loops over all mexgen_results_instance_*.pkl files and stores narratives in json file
+
+python run_narrative.py --temperature 0.8       # can also change temperature
+
+python run_narrative.py --input mexgen_results_instance_0.pkl
+python run_narrative.py --input mexgen_results_instance_1.pkl
+python run_narrative.py --input mexgen_results_instance_4.pkl
+python run_narrative.py --input mexgen_results_instance_9.pkl
+python run_narrative.py --input mexgen_results_instance_17.pkl
+python run_narrative.py --input mexgen_results_instance_29.pkl
+python run_narrative.py --input mexgen_results_instance_55.pkl
+python run_narrative.py --input mexgen_results_instance_95.pkl
+python run_narrative.py --input mexgen_results_instance_107.pkl
+python run_narrative.py --input mexgen_results_instance_134.pkl
+
+####################################################################################################################
+
+python run_evaluation.py                        # evaluates all entries in mexgen_results
+
+python run_evaluation.py --temperature 0.0      # judge temperature (default: 0.0)
+
+python run_evaluation.py --instance 0
+python run_evaluation.py --instance 1
+python run_evaluation.py --instance 4
+python run_evaluation.py --instance 9
+python run_evaluation.py --instance 17
+python run_evaluation.py --instance 29
+python run_evaluation.py --instance 55
+python run_evaluation.py --instance 95
+python run_evaluation.py --instance 107
+python run_evaluation.py --instance 134

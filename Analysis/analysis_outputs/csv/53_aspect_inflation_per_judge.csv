@@ -1,0 +1,11 @@
+judge,comparison,n_cells,mean_diff,wilcoxon_stat,p_value,rank_biserial_r,p_holm,sig_holm
+Aggregate (Majority Vote),helpfulness vs faithfulness,240,0.134,6527.5,0.098124,0.143,0.196248,False
+Aggregate (Majority Vote),plausibility vs faithfulness,240,-0.154,6487.5,0.003288,-0.246,0.01644,True
+gpt-5.4,helpfulness vs faithfulness,240,-0.281,2633.5,0.00038,-0.352,0.00228,True
+gpt-5.4,plausibility vs faithfulness,240,-0.106,2903.0,0.213578,-0.13,0.213578,False
+gemini-3.1-pro,helpfulness vs faithfulness,240,0.185,1921.0,0.030799,0.239,0.123196,False
+gemini-3.1-pro,plausibility vs faithfulness,240,-0.115,4313.0,0.056463,-0.174,0.169389,False
+claude-sonnet-4.6,helpfulness vs faithfulness,240,-0.2,1800.0,0.000285,-0.377,0.001995,True
+claude-sonnet-4.6,plausibility vs faithfulness,240,-0.312,1435.0,0.0,-0.538,0.0,True
+grok-4.20,helpfulness vs faithfulness,240,1.188,1.0,0.0,0.999,0.0,True
+grok-4.20,plausibility vs faithfulness,240,1.108,0.0,0.0,1.0,0.0,True

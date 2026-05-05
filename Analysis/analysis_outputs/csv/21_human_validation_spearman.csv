@@ -1,0 +1,5 @@
+scope,n,spearman_rho,p_value,mean_human,mean_llm,mean_abs_diff,p_holm,sig_holm
+faithfulness,20,0.592,0.006,3.6,3.675,0.65,0.006,True
+helpfulness,20,0.675,0.0011,3.9,4.2,0.6,0.0033,True
+plausibility,20,0.635,0.0026,3.8,3.725,0.675,0.0052,True
+pooled,60,0.635,0.0,3.767,3.867,0.642,,False

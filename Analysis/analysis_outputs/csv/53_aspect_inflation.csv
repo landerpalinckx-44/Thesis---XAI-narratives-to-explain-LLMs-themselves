@@ -1,0 +1,3 @@
+comparison,n_cells,mean_faithfulness,mean_compared_aspect,mean_diff,wilcoxon_stat,p_value,rank_biserial_r,p_holm,sig_holm
+helpfulness vs faithfulness,960,3.803,4.026,0.223,33114.0,0.000218,0.206,0.000436,True
+plausibility vs faithfulness,960,3.803,3.947,0.144,43338.5,0.079276,0.094,0.079276,False

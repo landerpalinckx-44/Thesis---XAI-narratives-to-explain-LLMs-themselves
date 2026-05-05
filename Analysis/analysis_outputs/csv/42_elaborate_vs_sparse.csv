@@ -1,0 +1,7 @@
+base_persona,elaborate_persona,aspect,n_pairs,mean_base,mean_elaborate,mean_diff_elab_minus_base,wilcoxon_stat,p_value,rank_biserial_r,p_holm,sig_holm
+doctor,doctor_elaborate,faithfulness,120,4.008,3.679,-0.329,7.0,0.0002,-0.933,0.0006,True
+doctor,doctor_elaborate,helpfulness,120,4.167,3.742,-0.425,0.0,0.0,-1.0,0.0,True
+doctor,doctor_elaborate,plausibility,120,4.025,3.725,-0.3,39.0,0.0,-0.9,0.0,True
+patient,patient_elaborate,faithfulness,120,3.879,4.058,0.179,56.5,0.0369,0.511,0.0369,True
+patient,patient_elaborate,helpfulness,120,4.208,3.933,-0.275,17.0,0.0,-0.943,0.0,True
+patient,patient_elaborate,plausibility,120,4.075,3.925,-0.15,93.0,0.001,-0.6,0.002,True

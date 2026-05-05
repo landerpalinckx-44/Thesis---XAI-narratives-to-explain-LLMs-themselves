@@ -1,0 +1,4 @@
+aspect,n_units,krippendorff_alpha
+faithfulness,240,0.192
+helpfulness,240,-0.009
+plausibility,240,0.099

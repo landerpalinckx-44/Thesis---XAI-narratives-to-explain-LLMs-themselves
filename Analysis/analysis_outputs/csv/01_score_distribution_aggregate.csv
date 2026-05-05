@@ -1,0 +1,13 @@
+experiment,aspect,count,mean,std,min,median,max
+mexgen_gc,faithfulness,30,3.408,0.974,1.5,3.25,5.0
+mexgen_gc,helpfulness,30,3.167,1.109,2.0,3.0,5.0
+mexgen_gc,plausibility,30,2.967,1.074,1.0,3.0,5.0
+mexgen_stroke,faithfulness,50,3.502,1.41,1.0,4.0,5.0
+mexgen_stroke,helpfulness,50,3.82,1.155,1.0,4.0,5.0
+mexgen_stroke,plausibility,50,3.31,1.19,1.0,4.0,5.0
+tokenshap_gc,faithfulness,60,4.221,0.667,2.5,4.5,5.0
+tokenshap_gc,helpfulness,60,4.55,0.429,3.0,4.5,5.0
+tokenshap_gc,plausibility,60,4.183,0.52,3.0,4.0,5.0
+tokenshap_stroke,faithfulness,100,4.188,0.878,2.0,4.5,5.0
+tokenshap_stroke,helpfulness,100,4.225,0.708,2.0,4.5,5.0
+tokenshap_stroke,plausibility,100,4.07,0.659,2.0,4.0,5.0

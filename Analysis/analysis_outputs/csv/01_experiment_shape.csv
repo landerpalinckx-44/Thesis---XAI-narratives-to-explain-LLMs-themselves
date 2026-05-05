@@ -1,0 +1,5 @@
+experiment,method,use_case,n_instances,n_personas,n_judges,n_aspects,n_rows,n_scores,n_missing
+mexgen_gc,MExGen,German Credit,10,3,4,3,360,360,0
+mexgen_stroke,MExGen,Stroke,10,5,4,3,600,600,0
+tokenshap_gc,TokenSHAP,German Credit,20,3,4,3,720,720,0
+tokenshap_stroke,TokenSHAP,Stroke,20,5,4,3,1200,1200,0

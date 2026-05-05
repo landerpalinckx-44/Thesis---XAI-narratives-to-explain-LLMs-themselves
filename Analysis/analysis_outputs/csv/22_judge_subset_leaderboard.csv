@@ -1,0 +1,12 @@
+subset,size,n_pairs,spearman_rho,p_value,mean_abs_diff,mean_signed_diff,p_holm,sig_holm
+gpt-5.4 + claude-sonnet-4.6 + grok-4.20,3,60,0.64,0.0,0.744,-0.389,0.0,True
+gpt-5.4 + gemini-3.1-pro + claude-sonnet-4.6 + grok-4.20,4,60,0.635,0.0,0.642,0.1,0.0,True
+gemini-3.1-pro + claude-sonnet-4.6 + grok-4.20,3,60,0.592,0.0,0.706,0.372,0.0,True
+gpt-5.4 + gemini-3.1-pro + claude-sonnet-4.6,3,60,0.59,0.0,0.722,-0.2,0.0,True
+claude-sonnet-4.6 + grok-4.20,2,60,0.584,0.0,0.808,-0.125,0.0,True
+gpt-5.4 + claude-sonnet-4.6,2,60,0.576,0.0,0.833,-0.45,0.0,True
+gpt-5.4 + gemini-3.1-pro + grok-4.20,3,60,0.572,0.0,0.717,0.339,0.0,True
+gpt-5.4 + grok-4.20,2,60,0.571,0.0,0.825,-0.225,0.0,True
+gemini-3.1-pro + claude-sonnet-4.6,2,60,0.554,0.0,0.8,0.217,0.0,True
+gemini-3.1-pro + grok-4.20,2,60,0.55,0.0,0.775,0.442,0.0,True
+gpt-5.4 + gemini-3.1-pro,2,60,0.512,0.0,0.767,0.117,0.0,True

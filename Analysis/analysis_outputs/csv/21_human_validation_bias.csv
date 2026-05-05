@@ -1,0 +1,5 @@
+scope,n,mean_diff_llm_minus_human,median_diff,share_llm_higher,share_llm_lower,wilcoxon_stat,p_value,p_holm,sig_holm
+faithfulness,20,0.075,0.0,0.4,0.3,43.5,0.5697,0.7348,False
+helpfulness,20,0.3,0.0,0.45,0.25,28.5,0.1229,0.3687,False
+plausibility,20,-0.075,-0.25,0.35,0.5,58.0,0.3674,0.7348,False
+pooled,60,0.1,0.0,0.4,0.35,454.5,0.4687,,False

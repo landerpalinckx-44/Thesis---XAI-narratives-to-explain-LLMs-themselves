@@ -1,0 +1,4 @@
+aspect,n_cells,mean_persona_sd,mean_judge_sd,mean_diff_judge_minus_persona,wilcoxon_stat,p_value,rank_biserial_r,p_holm,sig_holm
+faithfulness,60,0.432,1.001,0.569,4.0,0.0,0.996,0.0,True
+helpfulness,60,0.213,0.899,0.686,0.0,0.0,1.0,0.0,True
+plausibility,60,0.218,0.822,0.604,0.0,0.0,1.0,0.0,True

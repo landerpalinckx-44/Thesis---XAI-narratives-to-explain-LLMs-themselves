@@ -1,0 +1,16 @@
+aspect,comparison,n,mean_gemini,mean_reference,mean_diff,wilcoxon_stat,p_value,p_holm,sig_holm
+faithfulness,Gemini vs mean of GPT/Claude/Grok,240,4.41,3.601,0.81,3093.0,0.0,0.0,True
+faithfulness,Gemini vs median of GPT/Claude/Grok,240,4.41,3.619,0.792,2549.5,0.0,0.0,True
+faithfulness,Gemini vs gpt-5.4,240,4.41,3.473,0.938,2081.0,0.0,0.0,True
+faithfulness,Gemini vs claude-sonnet-4.6,240,4.41,3.721,0.69,3903.0,0.0,0.0,True
+faithfulness,Gemini vs grok-4.20,240,4.41,3.608,0.802,633.5,0.0,0.0,True
+helpfulness,Gemini vs mean of GPT/Claude/Grok,240,4.596,3.836,0.76,111.0,0.0,0.0,True
+helpfulness,Gemini vs median of GPT/Claude/Grok,240,4.596,3.558,1.038,0.0,0.0,0.0,True
+helpfulness,Gemini vs gpt-5.4,240,4.596,3.192,1.404,0.0,0.0,0.0,True
+helpfulness,Gemini vs claude-sonnet-4.6,240,4.596,3.521,1.075,0.0,0.0,0.0,True
+helpfulness,Gemini vs grok-4.20,240,4.596,4.796,-0.2,732.5,0.0,0.0,True
+plausibility,Gemini vs mean of GPT/Claude/Grok,240,4.296,3.831,0.465,1535.0,0.0,0.0,True
+plausibility,Gemini vs median of GPT/Claude/Grok,240,4.296,3.512,0.783,137.0,0.0,0.0,True
+plausibility,Gemini vs gpt-5.4,240,4.296,3.367,0.929,139.0,0.0,0.0,True
+plausibility,Gemini vs claude-sonnet-4.6,240,4.296,3.408,0.888,210.0,0.0,0.0,True
+plausibility,Gemini vs grok-4.20,240,4.296,4.717,-0.421,1681.0,0.0,0.0,True

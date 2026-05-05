@@ -1,0 +1,3 @@
+experiment,n_instances,mean_n_tokens,mean_effective_ratio,share_cap_active
+tokenshap_gc,20,30.4,1.00278999209976e-06,1.0
+tokenshap_stroke,20,22.7,0.00015147986107699266,1.0
