@@ -1,6 +1,6 @@
 # Thesis: XAI narratives to explain LLMs themselves
 
-A study of XAI narratives based on two explainability methods — **TokenSHAP** and **MExGen** — for generating and evaluating natural language explanations of LLMs decision-making.
+A study of XAI narratives based on two explainability methods — **TokenSHAP** and **MExGen** — for generating and evaluating natural language explanations of LLMs' decision-making.
 
 ## Overview
 
@@ -12,6 +12,8 @@ This repository implements an end-to-end pipeline for generating, evaluating, an
 | Stroke | Medical stroke risk prediction |
 
 Explanations (narratives) are generated from feature attributions, scored by a panel of four LLM judges across three quality aspects, and analysed with non-parametric statistical tests.
+
+> **Quick look at results?** Open [`Analysis/analysis_outputs/summary.md`](Analysis/analysis_outputs/summary.md) for a clean overview of all statistical findings.
 
 ## Repository Structure
 
@@ -79,16 +81,16 @@ MExGen/
 
 ## Analysis
 
-Cross-method statistical analysis comparing TokenSHAP and MExGen explanations.
+Cross-method statistical analysis on all gathered evaluation results.
 
 ```
 Analysis/
-├── statistical_analysis.ipynb   # Main analysis notebook (8 sections)
+├── statistical_analysis.ipynb   # Main analysis notebook (8 sections) on the evaluation results
 ├── BERTScore_test.ipynb         # BERTScore semantic similarity tests
-├── analysis_outputs/
-│   ├── summary.md               # Narrative summary of all findings
-│   └── csv/                     # 30+ CSV files with test results
-└── 33_judge_calibration_chart_stacked.svg
+└── analysis_outputs/
+    ├── summary.md               # Summary of all statistical findings
+    ├── 33_judge_calibration_chart_stacked.svg
+    └── csv/                     # 30+ CSV files with test results
 ```
 
 **Notebook sections:**
@@ -96,12 +98,12 @@ Analysis/
 | Section | Content |
 |---|---|
 | 1 | Data overview — experiment shapes, score distributions |
-| 2 | Human validation of LLM-as-Judge scores (Spearman correlation) |
+| 2 | Human validation of LLM-as-Judge scores |
 | 3 | Judge agreement and calibration |
-| 4 | Persona effects (Friedman + Wilcoxon post-hoc tests) |
-| 5 | Evaluation metrics (aspect correlations, attribution concentration) |
-| 6 | XAI method comparison — TokenSHAP vs MExGen (paired Wilcoxon) |
-| 7 | Outlier analysis (Tukey + z-score) |
+| 4 | Persona effects |
+| 5 | Evaluation metrics |
+| 6 | XAI method comparison — TokenSHAP vs MExGen |
+| 7 | Outlier analysis |
 | 8 | TokenSHAP sampling cap analysis |
 
 ---
